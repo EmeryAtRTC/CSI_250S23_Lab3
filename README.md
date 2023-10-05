@@ -21,11 +21,11 @@
 
 ## Task 2: Modify the Album Model and set the following Data Annotiations: (8pts)
  - Title, Genre, Artist and Price are all required
- - Title should display as Album Name when 
+ - Title should display as Album Name when it is shown in a View
  - Title should be able to store up to 100 characters
  - Price should be a number between 0 and 10,000
 
-## Task 3: Create an Edit action int eh AlbumController with a GET and a POST (8 pts)
+## Task 3: Create an Edit action in the AlbumController with a GET and a POST (8 pts)
  - On Get take in an Id parameter and return a view with a form for editing the Album
     - If no album is found matching the id, return NotFound()
  - On Post take in an Album parameter
@@ -49,7 +49,7 @@
 # Tips for success
 - Commit early and often. As you complete each step create a new commit.
 - Refer to the example code and the weekly powerpoint
-- Office Hours are Mondays and Fridays from 11a-1pm, if you are struggling with any of the assignments please come by.
+- Come to office hours if you have questions
 
 
 Feel free to message your instructor or the TA on Canvas if you have any questions.
